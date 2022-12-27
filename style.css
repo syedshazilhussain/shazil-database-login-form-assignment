@@ -1,0 +1,58 @@
+input {             
+
+    padding-left: 30px;
+    font-size: 15px;    
+    height: 40px;
+    width: 40%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+    font-style: italic;
+    opacity: none;
+    margin-left: 105px;
+    margin-top: -10px;
+}
+h4 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 15px;
+    letter-spacing: 4px;
+}
+input[type=text]:focus{
+    outline: none;
+}
+button {
+    height: 40px;
+    width: 35%;
+    margin: 5px;
+    margin-left: 40px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+button:focus {
+    outline: none;
+    color: orangered;
+    border: 2px solid orangered;
+}
+div {
+    background: none;
+    position: absolute;
+    bottom: 55px;
+    margin-left: 450px;
+    width: 30%;
+    height: 550px;
+    box-shadow: 2px 5px 50px rgb(2, 2, 2);
+    border-radius: 70px;
+}
